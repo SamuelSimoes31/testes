@@ -16,10 +16,12 @@ int* real(int* p){
 
 int main(){
 
-    int *p = NULL;
-    p = real(p);
-    p[4] = 10;
+    int *pi = NULL;
+
+    pi = real(pi);
+    pi[4] = 10;
     printf("%d\n",p[4]);
-    free(p);
+    free(pi);
+	//free feio
     return 0;
 }
